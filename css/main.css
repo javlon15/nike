@@ -1,0 +1,76 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header start */
+
+.header__nav{
+    background: #322E41;
+}
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+}
+.header__link{
+    padding: 23px 22px;
+    display: inline-block;
+    transition: .5s;
+    color: #fff;
+}
+.header__link:hover{
+    color: #d47300;
+    background: #fff;
+}
+.header__content .img{
+    position: absolute;
+    
+}
+
+.header__content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: cornsilk;
+}
+.header__title{
+    font-size: 50px;
+}
+.header__desc{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* header end */
